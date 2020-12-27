@@ -390,473 +390,225 @@ namespace Color_Picker
         private void trackBar5_MouseEnter(object sender, EventArgs e)
         {
 
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel3.Left -= 1;
-            panel5.Left -= 1;
-
-            panel2.Top -= 1;
-            panel3.Top -= 1;
-            panel5.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel3.border_color = Color.Black;
+            panel5.border_color = Color.Black;
 
         }
 
         private void trackBar5_MouseLeave(object sender, EventArgs e)
         {
-            panel5.BorderStyle = BorderStyle.None;
-            panel2.BorderStyle = BorderStyle.None;
-            panel3.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel3.Left += 1;
-            panel5.Left += 1;
-
-            panel2.Top += 1;
-            panel3.Top += 1;
-            panel5.Top += 1;
+            panel5.border_color = SystemColors.Control;
+            panel2.border_color = SystemColors.Control;
+            panel3.border_color = SystemColors.Control;
         }
 
 
 
         private void trackBar4_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel9.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel3.Left -= 1;
-            panel4.Left -= 1;
-            panel9.Left -= 1;
-            panel5.Left -= 1;
-            panel6.Left -= 1;
-            panel7.Left -= 1;
-
-            panel2.Top -= 1;
-            panel3.Top -= 1;
-            panel4.Top -= 1;
-            panel9.Top -= 1;
-            panel5.Top -= 1;
-            panel6.Top -= 1;
-            panel7.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel3.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel9.border_color = Color.Black;
+            panel5.border_color = Color.Black;
+            panel6.border_color = Color.Black;
+            panel7.border_color = Color.Black;
 
         }
 
         private void trackBar4_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel3.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel9.BorderStyle = BorderStyle.None;
-            panel5.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel3.Left += 1;
-            panel4.Left += 1;
-            panel9.Left += 1;
-            panel5.Left += 1;
-            panel6.Left += 1;
-            panel7.Left += 1;
-
-            panel2.Top += 1;
-            panel3.Top += 1;
-            panel4.Top += 1;
-            panel9.Top += 1;
-            panel5.Top += 1;
-            panel6.Top += 1;
-            panel7.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel3.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel9.border_color = SystemColors.Control;
+            panel5.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
 
         }
 
         private void trackBar6_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel4.Left -= 1;
-            panel6.Left -= 1;
-
-            panel2.Top -= 1;
-            panel4.Top -= 1;
-            panel6.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel6.border_color = Color.Black;
         }
 
         private void trackBar6_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel4.Left += 1;
-            panel6.Left += 1;
-
-            panel2.Top += 1;
-            panel4.Top += 1;
-            panel6.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
         }
 
         private void trackBar7_MouseEnter(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-
-            panel3.Left -= 1;
-            panel4.Left -= 1;
-            panel7.Left -= 1;
-
-            panel3.Top -= 1;
-            panel4.Top -= 1;
-            panel7.Top -= 1;
+            panel3.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel7.border_color = Color.Black;
 
         }
 
         private void trackBar7_MouseLeave(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
-
-            panel3.Left += 1;
-            panel4.Left += 1;
-            panel7.Left += 1;
-
-            panel3.Top += 1;
-            panel4.Top += 1;
-            panel7.Top += 1;
+            panel3.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
 
         }
         private void trackBar1_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel9.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel9.Left -= 1;
-            panel5.Left -= 1;
-            panel6.Left -= 1;
-
-            panel2.Top -= 1;
-            panel9.Top -= 1;
-            panel5.Top -= 1;
-            panel6.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel9.border_color = Color.Black;
+            panel5.border_color = Color.Black;
+            panel6.border_color = Color.Black;
         }
 
         private void trackBar1_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel9.BorderStyle = BorderStyle.None;
-            panel5.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel9.Left += 1;
-            panel5.Left += 1;
-            panel6.Left += 1;
-
-            panel2.Top += 1;
-            panel9.Top += 1;
-            panel5.Top += 1;
-            panel6.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel9.border_color = SystemColors.Control;
+            panel5.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
         }
 
         private void trackBar2_MouseEnter(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel9.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-
-            panel3.Left -= 1;
-            panel9.Left -= 1;
-            panel7.Left -= 1;
-            panel5.Left -= 1;
-
-            panel3.Top -= 1;
-            panel9.Top -= 1;
-            panel7.Top -= 1;
-            panel5.Top -= 1;
+            panel3.border_color = Color.Black;
+            panel9.border_color = Color.Black;
+            panel7.border_color = Color.Black;
+            panel5.border_color = Color.Black;
 
         }
 
         private void trackBar2_MouseLeave(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.None;
-            panel9.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
-            panel5.BorderStyle = BorderStyle.None;
-
-            panel3.Left += 1;
-            panel9.Left += 1;
-            panel7.Left += 1;
-            panel5.Left += 1;
-
-            panel3.Top += 1;
-            panel9.Top += 1;
-            panel7.Top += 1;
-            panel5.Top += 1;
+            panel3.border_color = SystemColors.Control;
+            panel9.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
+            panel5.border_color = SystemColors.Control;
         }
 
         private void trackBar3_MouseEnter(object sender, EventArgs e)
         {
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel9.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-
-            panel4.Left -=1;
-            panel9.Left -= 1;
-            panel6.Left -= 1;
-            panel7.Left -= 1;
-
-            panel4.Top -= 1;
-            panel9.Top -= 1;
-            panel6.Top -= 1;
-            panel7.Top -= 1;
+            panel4.border_color = Color.Black;
+            panel9.border_color = Color.Black;
+            panel6.border_color = Color.Black;
+            panel7.border_color = Color.Black;
         }
 
         private void trackBar3_MouseLeave(object sender, EventArgs e)
         {
-            panel4.BorderStyle = BorderStyle.None;
-            panel9.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
+            panel4.border_color = SystemColors.Control;
+            panel9.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
 
-            panel4.Left += 1;
-            panel9.Left += 1;
-            panel6.Left += 1;
-            panel7.Left += 1;
-
-            panel4.Top += 1;
-            panel9.Top += 1;
-            panel6.Top += 1;
-            panel7.Top += 1;
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel3.Left -= 1;
-
-            panel2.Top -= 1;
-            panel3.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel3.border_color = Color.Black;
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel3.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel3.Left += 1;
-
-            panel2.Top += 1;
-            panel3.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel3.border_color = SystemColors.Control;
         }
 
         private void button3_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel4.Left -= 1;
-
-            panel2.Top -= 1;
-            panel4.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel4.border_color = Color.Black;
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel4.Left += 1;
-
-            panel2.Top -= 1;
-            panel4.Top -= 1;
+            panel2.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-
-            panel3.Left -= 1;
-            panel4.Left -= 1;
-
-            panel3.Top -= 1;
-            panel4.Top -= 1;
+            panel3.border_color = Color.Black;
+            panel4.border_color = Color.Black;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-
-            panel3.Left += 1;
-            panel4.Left += 1;
-
-            panel3.Top += 1;
-            panel4.Top += 1;
+            panel3.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
         }
 
         private void button6_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel3.Left -= 1;
-            panel5.Left -= 1;
-
-            panel2.Top -= 1;
-            panel3.Top -= 1;
-            panel5.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel3.border_color = Color.Black;
+            panel5.border_color = Color.Black;
         }
 
         private void button6_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel3.BorderStyle = BorderStyle.None;
-            panel5.BorderStyle = BorderStyle.None;
+            panel2.border_color = SystemColors.Control;
+            panel3.border_color = SystemColors.Control;
+            panel5.border_color = SystemColors.Control;
 
-            panel2.Left += 1;
-            panel3.Left += 1;
-            panel5.Left += 1;
-
-            panel2.Top += 1;
-            panel3.Top += 1;
-            panel5.Top += 1;
         }
 
         private void button8_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
+            panel2.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel6.border_color = Color.Black;
 
-            panel2.Left -= 1;
-            panel4.Left -= 1;
-            panel6.Left -= 1;
-
-            panel2.Top -= 1;
-            panel4.Top -= 1;
-            panel6.Top -= 1;
         }
 
         private void button8_MouseLeave(object sender, EventArgs e)
         {
 
-            panel2.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel4.Left += 1;
-            panel6.Left += 1;
-
-            panel2.Top += 1;
-            panel4.Top += 1;
-            panel6.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
         }
 
         private void button7_MouseEnter(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
+            panel3.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel7.border_color = Color.Black;
 
-            panel3.Left -= 1;
-            panel4.Left -= 1;
-            panel7.Left -= 1;
-
-            panel3.Top -= 1;
-            panel4.Top -= 1;
-            panel7.Top -= 1;
         }
 
         private void button7_MouseLeave(object sender, EventArgs e)
         {
-            panel3.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
-
-            panel3.Left += 1;
-            panel4.Left += 1;
-            panel7.Left += 1;
-
-            panel3.Top += 1;
-            panel4.Top += 1;
-            panel7.Top += 1;
+            panel3.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
         }
 
         private void button5_MouseEnter(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel5.BorderStyle = BorderStyle.FixedSingle;
-            panel7.BorderStyle = BorderStyle.FixedSingle;
-            panel6.BorderStyle = BorderStyle.FixedSingle;
-
-            panel2.Left -= 1;
-            panel3.Left -= 1;
-            panel4.Left -= 1;
-            panel5.Left -= 1;
-            panel7.Left -= 1;
-            panel6.Left -= 1;
-
-            panel2.Top -= 1;
-            panel3.Top -= 1;
-            panel4.Top -= 1;
-            panel5.Top -= 1;
-            panel7.Top -= 1;
-            panel6.Top -= 1;
+            panel2.border_color = Color.Black;
+            panel3.border_color = Color.Black;
+            panel4.border_color = Color.Black;
+            panel5.border_color = Color.Black;
+            panel7.border_color = Color.Black;
+            panel6.border_color = Color.Black;
 
         }
 
         private void button5_MouseLeave(object sender, EventArgs e)
         {
-            panel2.BorderStyle = BorderStyle.None;
-            panel3.BorderStyle = BorderStyle.None;
-            panel4.BorderStyle = BorderStyle.None;
-            panel5.BorderStyle = BorderStyle.None;
-            panel7.BorderStyle = BorderStyle.None;
-            panel6.BorderStyle = BorderStyle.None;
-
-            panel2.Left += 1;
-            panel3.Left += 1;
-            panel4.Left += 1;
-            panel5.Left += 1;
-            panel7.Left += 1;
-            panel6.Left += 1;
-
-            panel2.Top += 1;
-            panel3.Top += 1;
-            panel4.Top += 1;
-            panel5.Top += 1;
-            panel7.Top += 1;
-            panel6.Top += 1;
+            panel2.border_color = SystemColors.Control;
+            panel3.border_color = SystemColors.Control;
+            panel4.border_color = SystemColors.Control;
+            panel5.border_color = SystemColors.Control;
+            panel7.border_color = SystemColors.Control;
+            panel6.border_color = SystemColors.Control;
         }
 
 

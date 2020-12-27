@@ -8,3 +8,13 @@ C:\Users\THIAGO\source\repos\Color Picker\Color Picker\obj\Debug\Color Picker.cs
 C:\Users\THIAGO\source\repos\Color Picker\Color Picker\obj\Debug\Color Picker.csproj.CoreCompileInputs.cache
 C:\Users\THIAGO\source\repos\Color Picker\Color Picker\obj\Debug\Color Picker.exe
 C:\Users\THIAGO\source\repos\Color Picker\Color Picker\obj\Debug\Color Picker.pdb
+C:\Users\THIAGO\source\repos\source\Color Picker\bin\Debug\Color Picker.exe.config
+C:\Users\THIAGO\source\repos\source\Color Picker\bin\Debug\Color Picker.exe
+C:\Users\THIAGO\source\repos\source\Color Picker\bin\Debug\Color Picker.pdb
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color Picker.csprojAssemblyReference.cache
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color_Picker.Form1.resources
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color_Picker.Properties.Resources.resources
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color Picker.csproj.GenerateResource.cache
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color Picker.csproj.CoreCompileInputs.cache
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color Picker.exe
+C:\Users\THIAGO\source\repos\source\Color Picker\obj\Debug\Color Picker.pdb
